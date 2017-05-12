@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+
+html { 
+    background: #fff;
+    color: #555;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+}
+
+section {
+      padding: 80px 0;
+        
+}
+
+.bc { letter-spacing:1px;
+       
+ }
+
+h1{
+  color:#00b1ff;
+  font-size:550%;
+  padding-top:550px;
+  padding-left:100px;
+  font-weight:lighter;
+  
+ }
+
+h2 {  
+    color: rgb(72, 185, 255);
+   font-size: 250%;
+  padding-left:300px;
+  font-weight:1;
+  
+
+}
+
+
+header{ background-image:url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/07/Robin-Williams-Wallpapers-HD.jpg");
+  
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+    padding-top: 1px
+}
+
+.awards{ color:#555; 
+          text-align : center; 
+          font-size: 400%;
+
+}
+
+h3 { font-size:150%;
+      font-weight:lighter;
+  padding-top:10px;
+  margin-bottom:80px;
+    
+
+}
+
+h3:after { 
+  display:block;
+  height: 3px;
+  background-color:#ffa500;
+  content:" ";
+  width:123px;
+  margin-top:30px;
+  margin: 0 auto;
+
+    
+
+  }
+
+.awards{ 
+    background-color: #555;
+    color: white;
+
+
+
+}
+
+.awards-list { 
+    font-size: 40%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-left: 400px;
+        
+}
+
+.quote { 
+    font-size: 300%;
+    background-color: #d9d9d9;
+    text-align: center;
+
+}
+
+.more-info { 
+    font-size: 200%;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    transition: 0.2, color:0.2s;
+
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ffa500; 
+    transition: border-bottom 0.2s, color 0.2s;
+    border-bottom-color: #ffa500;
+        
+}
+
+a:hover,
+a:active {
+    color:#ffa500 ;
+    border-bottom: 1px solid transparent; 

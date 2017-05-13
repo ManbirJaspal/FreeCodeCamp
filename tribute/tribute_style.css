@@ -28,17 +28,17 @@ section {
 
 h1{
   color:#00b1ff;
-  font-size:550%;
-  padding-top:550px;
-  padding-left:100px;
+  font-size:300%;
+  padding-top:200px;
+  padding-left:14px;
   font-weight:lighter;
   
  }
 
 h2 {  
     color: rgb(72, 185, 255);
-   font-size: 250%;
-  padding-left:300px;
+   font-size: 160%;
+  padding-left:110px;
   font-weight:1;
   
 
@@ -50,7 +50,9 @@ header{ background-image:url("http://hdwallpaperbackgrounds.net/wp-content/uploa
   background-size:cover;
   background-position:center;
   height:100vh;
-    padding-top: 1px
+    padding-top: 1px;
+    background-attachment: fixed;
+
 }
 
 .awards{ color:#555; 
@@ -59,9 +61,9 @@ header{ background-image:url("http://hdwallpaperbackgrounds.net/wp-content/uploa
 
 }
 
-h3 { font-size:150%;
+h3 { font-size:100%;
       font-weight:lighter;
-  padding-top:10px;
+  
   margin-bottom:80px;
     
 
@@ -89,11 +91,12 @@ h3:after {
 }
 
 .awards-list { 
-    font-size: 40%;
+    font-size: 20%;
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: justify;
-    padding-left: 400px;
+    padding-left: 150px;
+    word-spacing: 1px
         
 }
 
